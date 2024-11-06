@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+	
+:root{
+	--color-contenido:#717A81;
+	--fondo-header:#000;
+	--color-gris:#cacaca;
+	--color-titulos:#303132;
+	--color-azul:#4859fc;
+	--color-azul-btn:#007bff;
+	--color-subtitulos:#d2d2d2;
+	--color-gris:#979797;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: var(--color-contenido);
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	background-color: var(--fondo-header);
+	padding: 20px 0;
+	text-align: center;
+}
+
+#hero{
+	background-image: url(../img/v36-intro.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	padding: 10% 0;
+	color: #fff;
+}
+
+
+#hero h1,
+#slides h1{
+	font-size: 70px;
+	font-weight: 700;
+}
+
+#hero h2,
+#slides h2{
+	font-size: 24px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+	color: #cacaca;
+}
+
+#hero .btn,
+#products .btn{
+	background-color: var(--color-azul-btn);
+	text-transform: uppercase;
+	padding: 15px 40px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 40px;
+	color: #fff;
+}
+
+.title{
+	font-size: 50px;
+	color: var(--color-titulos);
+	font-weight: 700;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: 20px;
+}
+
+.title2{
+	font-size: 50px;
+	color:#fff;
+	font-weight: 700;
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: 20px;
+	
+}
+
+
+.subtitle{
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: var(--fondo-header);
+	font-weight: 700;
+}
+
+.section{
+	padding: 80px 0;	
+}
+
+#what{
+	text-align: center;
+}
+#what i{
+	font-size: 50px;	
+	color: var(--color-azul);
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#what article h4{
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: var(--color-titulos);
+	letter-spacing: 1px;
+}
+
+#what .parrafo{
+ font-family: 'Poppins', sans-serif;
+}
+
+
+#products{
+	background-color: var(--fondo-header);
+}
+
+#products .title2{
+	text-align: left;
+	color: #fff;
+	margin-top: 50px;
+}
+
+#products .subtitle{
+	text-align: left;
+	color: var(--color-subtitulos);
+	font-size: 18px;
+}
+
+#products .img-fluid{
+
+	margin-bottom: 50px;
+	
+}
+
+
+
+#pods .title{
+	text-align: left;
+	margin-top: 130px;
+	margin-bottom: 5px;
+}
+
+#pods h3{
+	text-transform: uppercase;
+	color: var(--color-azul);;
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin-bottom: 30px;
+}
+
+#pods p{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+#pods .btn-azul{
+	background-color: var(--color-azul-btn);
+	text-transform: uppercase;
+	padding: 15px 40px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 40px;
+	color: #fff;
+	
+}
+
+#pods .btn-blanco{
+	background-color: #fff;
+	text-transform: uppercase;
+	padding: 15px 40px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 40px;
+	color: var(--color-gris);
+	border: 3px solid var(--color-gris);
+	
+}
+
+#pods img{
+	margin-top: 30px;
+
+}
+
+
+#reviews{
+	background-color: var(--color-azul);
+	text-align: center;
+}
+#reviews .title{
+	color: #fff;
+	margin-bottom: 80px;
+}
+
+#reviews article{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+#reviews .info-review{
+	background-color: #fff;
+	padding: 35px 20px;
+	box-shadow: 2px 2px 30px 20px var(--color-azul);
+	margin-bottom: 15px;
+}
+
+.info-review h3{
+	color: var(--color-titulos);
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.info-review h4{
+	font-size: 14px;	
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.info-review p{
+	font-size: 16px;
+}
+
+
+
+
+
+
+footer{
+	padding-top: 5%;
+}
+footer #info h3{
+	font-size: 14px;
+	/*propiedades faltantes*/
+}
+footer #copy{
+	border-top: 1px solid #ddd;
+	text-align: center;
+	padding: 40px 0;
+}
+
+footer .subtitle{
+	text-transform: uppercase;
+	font-weight: 600;
+	text-align: left;
+	
+}
+
+footer i{
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
